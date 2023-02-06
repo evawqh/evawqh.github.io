@@ -63,7 +63,7 @@
 
 #splash-text .text-block {
     height: 28px;
-    line-height: 29pt;
+    line-height: 50pt;
 }
 
 #splash-text .text-block:nth-child(1) {
@@ -74,10 +74,29 @@
     width: 1000px;
 }
 
+.body-text {
+    font-family: "MrsEavesRoman", Georgia, "Times New Roman", Times, serif;
+    color: black;
+    font-size: 1.2em;
+    line-height: 30px;
+}
+
+.figure-background0 {
+    background-color: white;
+    margin: 2rem;
+    width: 40%;
+}
+
 .figure-background {
     background-color: white;
-    margin: 2rem 25% 2rem 2rem;
-    width: 70%; 
+    margin: 2rem;
+    width: 40%; 
+}
+
+.figure-background1 {
+    background-color: white;
+    margin: 2rem;
+    width: 80%; 
 }
 
 .figure-container1 {
@@ -91,6 +110,6 @@
 .map-col1{
     width: 50%;
     margin: 2rem 2rem 2rem 2%;
-    line-height: 1.5rem;
+    line-height: 2rem;
     align-self: center;
 }
