@@ -1,0 +1,158 @@
+.background {
+    padding: 7vw
+}
+
+#splash {
+    height: 10vh;
+    min-height: 600px;
+    max-height: 900px;
+}
+
+#splash-hero {
+    position: absolute;
+    top: 70px;
+    left: 30%;
+    transform: translateX(-15.4%);
+    font-size: 2em;
+    font-family: "MrsEavesRoman", Georgia, "Times New Roman", Times, serif;
+}
+
+#splash-hero .text-block {
+    padding-left: 100px;
+    height: 60px;
+    width: 1000px;
+    white-space: nowrap;
+}
+
+#splash-hero .line-1 {
+    width: 330px;
+    line-height: 60px;
+    padding-left: 15px;
+    transform: translate(-3px);
+}
+
+#splash-hero .line-2 {
+    width: 670px;
+    line-height: 60px;
+    padding-left: 10px;
+    transform: translate(-3px);
+}
+
+#splash-text {
+    position: absolute;
+    left: 60%;
+    top: 140px;
+    transform: translateX(-50%);
+    font-size: 1em;
+}
+
+.text-block {
+    padding: 2px 2px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 3px;
+}
+
+.text-block .small-caps {
+    font-variant: small-caps;
+    font-size: 0.9em;
+}
+
+.text-block .sidebar-link {
+    font-style: italic;
+}
+
+#splash-text .text-block {
+    height: 28px;
+    line-height: 150pt;
+}
+
+#splash-text .text-block:nth-child(1) {
+    width: 500px;
+}
+
+#splash-text .text-block:nth-child(2) {
+    width: 1000px;
+}
+
+.body-text {
+    font-family: "MrsEavesRoman", Georgia, "Times New Roman", Times, serif;
+    color: black;
+    font-size: 1.2em;
+    line-height: 30px;
+    margin-top:7rem;
+}
+
+.center-img {
+    justify-content: center;
+    display: flex;
+    margin-top: 6rem;
+}
+
+.figure-background0 {
+    background-color: white;
+    margin: 2rem;
+}
+
+.figure-background {
+    background-color: white;
+    margin: 2rem;
+    width: 40%; 
+}
+
+.figure-background1 {
+    background-color: white;
+    margin: 2rem;
+    width: 80%; 
+}
+
+.figure-container1 {
+    padding: 1rem
+}
+
+.figure-container2{
+    padding:1em
+}
+
+.map-col1{
+    width: 50%;
+    margin: 2rem 2rem 2rem 2%;
+    line-height: 2rem;
+    align-self: center;
+}
+
+/* styles for ai2html */
+
+#g-affirmative-asylum_svg-Artboard_2, #g-affirmative-asylum_svg-Artboard_3{
+    display: none;
+}
+
+@media (max-width:890px) {
+    #g-affirmative-asylum_svg-Artboard_3 {
+        display: block;
+    }
+}
+
+@media (min-width:890px) {
+    #g-affirmative-asylum_svg-Artboard_2 {
+        display: block;
+    }
+}
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 2em;
+  align-items: center;
+}
+
+.column-container {
+  flex-grow: 1;
+  width:100%;
+}
+
+@media (max-width: 650px) {
+  .row-container {
+    flex-direction: column;
+  }
+}
