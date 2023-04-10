@@ -41,7 +41,7 @@
 #splash-text {
     position: absolute;
     left: 60%;
-    top: 140px;
+    top: 270px;
     transform: translateX(-50%);
     font-size: 1em;
 }
@@ -79,7 +79,7 @@
     color: black;
     font-size: 1.2em;
     line-height: 30px;
-    margin-top:7rem;
+    margin-top:30rem;
 }
 
 .center-img {
@@ -126,17 +126,6 @@
     display: none;
 }
 
-@media (max-width:890px) {
-    #g-affirmative-asylum_svg-Artboard_3 {
-        display: block;
-    }
-}
-
-@media (min-width:890px) {
-    #g-affirmative-asylum_svg-Artboard_2 {
-        display: block;
-    }
-}
 
 .row-container {
   display: flex;
